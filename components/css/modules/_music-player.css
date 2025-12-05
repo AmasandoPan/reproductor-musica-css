@@ -1,0 +1,36 @@
+.music-player {
+  background: #222;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  
+  transform-origin: center center;
+}
+
+.music-player:hover {
+  transform: scale(1.03);
+  
+  
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+/* Elementos del Bloque */
+.music-player__artwork-image {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.music-player__title {
+  margin: 0;
+  color: #1db954;
+  font-size: 24px;
+}
+
+.music-player__artist-info {
+  color: #aaa;
+  margin: 5px 0 20px 0;
+}

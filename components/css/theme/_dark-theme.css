@@ -1,0 +1,24 @@
+/* --- TEMA OSCURO ALTERNATIVO --- */
+
+.t-dark-theme {
+  background: #0d0d0d;
+}
+
+.t-dark-theme .music-player {
+  background: #151515;
+}
+
+.t-dark-theme .music-player__title,
+.t-dark-theme .progress-bar__fill,
+.t-dark-theme .btn--primary {
+  color: #fff;
+  background: #007bff; 
+}
+
+.t-dark-theme .btn--secondary {
+  background: #333;
+}
+
+.t-dark-theme .is-playing {
+  border: 2px solid #007bff;
+}

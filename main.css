@@ -1,0 +1,20 @@
+/* -------------------------------------------
+ * MANIFIESTO SMACSS
+ * ------------------------------------------- */
+
+/* 1. BASE: Estilos por defecto (body, reset, variables) */
+@import url("components/css/base/_body.css");
+
+/* 2. LAYOUT: Estructura macro (header, footer, grid) */
+@import url("components/css/layout/_center-content.css");
+
+/* 3. MODULES: Componentes reutilizables (botones, tarjetas, reproductor) */
+@import url("components/css/modules/_button.css");
+@import url("components/css/modules/_progress-bar.css");
+@import url("components/css/modules/_music-player.css");
+
+/* 4. STATE: Modificaciones de estado (is-active, is-hidden) */
+@import url("components/css/state/_player-state.css");
+
+/* 5. THEME: Temas visuales (t-dark-theme) */
+@import url("components/css/theme/_dark-theme.css");

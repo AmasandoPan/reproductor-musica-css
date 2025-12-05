@@ -1,11 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SpotiFake</title>
-</head>
-<body>
-    
-</body>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Reproductor SMACSS/BEM</title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <div class="l-center-content">
+      <div class="music-player is-playing">
+        <img
+          class="music-player__artwork-image"
+          src="components/img/a-kind-of-magic-cover.jpg"
+          alt="Album Art"
+        />
+
+        <h2 class="music-player__title">A Kind of Magic</h2>
+        <p class="music-player__artist-info">Queen - A Kind of Magic</p>
+
+        <div class="progress-bar">
+          <div class="progress-bar__fill" style="width: 40%"></div>
+        </div>
+
+        <div>
+          <button class="btn btn--small btn--secondary">⏮</button>
+          <button class="btn btn--large btn--primary">▶ Play</button>
+          <button class="btn btn--small btn--secondary">⏭</button>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
